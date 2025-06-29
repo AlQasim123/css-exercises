@@ -1,0 +1,24 @@
+.pink {
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+/* .pink.unique {
+    font-size: 24px;
+} */
+.pink.unique,
+#green {
+    font-size: 24px;
+}
+#blue {
+    color: blue;
+    font-size: 36px;
+}
+#green {
+    color: lightgreen;
+    font-weight: bold;
+}
+/* #green {
+    color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+} */
