@@ -24,3 +24,47 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* sol */
+body,
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #666;
+}
+
+.content {
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+} 
+
+button {
+  padding: 8px 16px;
+}
